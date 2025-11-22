@@ -1,0 +1,74 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background-color: #111827;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 50;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.4);
+}
+
+.header-left .logo {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-nav,
+.btn-cart {
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background-color: transparent;
+  color: #e5e7eb;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease,
+    transform 0.05s ease;
+}
+
+.btn-nav:hover,
+.btn-cart:hover {
+  background-color: rgba(249, 250, 251, 0.1);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.user-label {
+  font-size: 0.85rem;
+  color: #d1d5db;
+}
+
+/* En móviles que no se rompa */
+@media (max-width: 640px) {
+  .header {
+    padding: 0 12px;
+  }
+
+  .header-right {
+    gap: 8px;
+  }
+
+  .btn-nav,
+  .btn-cart {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+  }
+
+  .user-label {
+    display: none;
+  }
+}

@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* título */
+.home h1 {
+  font-size: 2.2rem;
+  margin-bottom: 4px;
+}
+
+/* mensajes (cargando, sin productos, etc.) */
+.home p {
+  font-size: 0.95rem;
+}
+
+.home .error {
+  color: #b91c1c;
+  background-color: #fee2e2;
+  border-radius: 6px;
+  padding: 6px 10px;
+  max-width: 400px;
+}
+
+/* grid de productos */
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
