@@ -1,4 +1,4 @@
-export const API_URL = "http://localhost:8080";
+export const API_URL = "http://34.46.167.111:8080";
 
 export async function fetchProductos() {
   const res = await fetch(`${API_URL}/productos`);

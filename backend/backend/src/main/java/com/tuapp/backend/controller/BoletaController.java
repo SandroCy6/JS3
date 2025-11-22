@@ -14,7 +14,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://34.46.167.111:3000")
 @RestController
 @RequestMapping("/boletas")
 @RequiredArgsConstructor

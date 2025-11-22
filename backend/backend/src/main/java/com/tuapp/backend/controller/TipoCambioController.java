@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 @RestController
 @RequestMapping("/tipo-cambio")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://34.46.167.111:3000")
 public class TipoCambioController {
 
     private final TipoCambioClient tipoCambioClient;

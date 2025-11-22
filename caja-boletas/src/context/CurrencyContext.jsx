@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 
 const CurrencyContext = createContext();
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "http://34.46.167.111:8080";
 
 export function CurrencyProvider({ children }) {
   const [currency, setCurrency] = useState("PEN"); // "PEN" o "USD"

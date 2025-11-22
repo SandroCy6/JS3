@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { fetchProductos } from "../api";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "http://34.46.167.111:8080";
 
 function BoletaForm({ cart = [] }) {
   const [tipoDocumento, setTipoDocumento] = useState("DNI");
